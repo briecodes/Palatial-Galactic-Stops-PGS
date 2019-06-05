@@ -25,6 +25,7 @@ namespace PalatialGalacticStops
         try
         {
           var context = services.GetRequiredService<AppDbContext>();
+          DbInitializer.Seed(context);
         }
         catch (Exception)
         {
