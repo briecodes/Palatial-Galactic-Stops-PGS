@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalatialGalaStops", "PalatialGalaStops.csproj", "{CDD26A6A-CBAD-40F4-983C-51E827F0AA48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalatialGalacticStops", "PalatialGalacticStops.csproj", "{371DCA8E-8F6B-4EAE-B82E-F120000A504B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CDD26A6A-CBAD-40F4-983C-51E827F0AA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDD26A6A-CBAD-40F4-983C-51E827F0AA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDD26A6A-CBAD-40F4-983C-51E827F0AA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDD26A6A-CBAD-40F4-983C-51E827F0AA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371DCA8E-8F6B-4EAE-B82E-F120000A504B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371DCA8E-8F6B-4EAE-B82E-F120000A504B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371DCA8E-8F6B-4EAE-B82E-F120000A504B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371DCA8E-8F6B-4EAE-B82E-F120000A504B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {99DBEEE1-4CD1-4DEA-B4BB-BB63A9986B40}
+		SolutionGuid = {08CF1705-FA7E-47FB-94BC-D3BDD73218DA}
 	EndGlobalSection
 EndGlobal
