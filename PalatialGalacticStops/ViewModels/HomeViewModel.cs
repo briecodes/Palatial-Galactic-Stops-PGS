@@ -9,5 +9,7 @@ namespace PalatialGalacticStops.ViewModels
   public class HomeViewModel
   {
     public string Title { get; set; }
+
+    public List<PlaceModel> Places { get; set; }
   }
 }

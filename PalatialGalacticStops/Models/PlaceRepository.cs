@@ -9,6 +9,11 @@ namespace PalatialGalacticStops.Models
   {
     private readonly AppDbContext _appDbContext;
 
+    public PlaceRepository(AppDbContext appDbContext)
+    {
+      _appDbContext = appDbContext;
+    }
+
     public IEnumerable<PlaceModel> GetAllPlaces()
     {
       return _appDbContext.Places;

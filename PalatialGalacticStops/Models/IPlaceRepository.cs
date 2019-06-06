@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PalatialGalacticStops.Models
 {
-  interface IPlaceRepository
+  public interface IPlaceRepository
   {
     IEnumerable<PlaceModel> GetAllPlaces();
     PlaceModel GetPlaceById(int placeId);
