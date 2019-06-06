@@ -23,7 +23,7 @@ namespace PalatialGalacticStops.Controllers
       var places = _placeRepository.GetAllPlaces().OrderBy(p => p.Name);
       var homeViewModel = new HomeViewModel()
       {
-        Title = $"Number of places: {places.Count()}",
+        Title = "Welcome to PGS!",
         Places = places.ToList(),
       };
 
