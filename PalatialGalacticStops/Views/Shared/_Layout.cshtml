@@ -2,11 +2,30 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link href="~/content/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:200i,300,300i,400,500&display=swap" rel="stylesheet">
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
+    <div id="header">
+        <a href="#">
+            <div id="logo">
+                <span class="title">P.G.S.</span>
+                <span class="title-meaning">Palatial Galactic Stops</span>
+            </div>
+        </a>
+        <div id="header-line"></div>
+        <img src="~/images/add.svg" class="add" />
+        <div class="clear"></div>
+    </div>
+
+    <div id="entries-container">
         @RenderBody()
     </div>
+
+    <div id="footer">
+        coded with &lt;3
+    </div>
+    <div id="bg"></div>
 </body>
 </html>

@@ -1,6 +1,204 @@
 ﻿html, body {
     padding: 0;
     margin: 0;
-    background-color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
     color: #fff;
+}
+
+#bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(../images/space.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.clear {
+    clear: both;
+}
+
+#header {
+    width: 90%;
+    margin: 50px 5%;
+    overflow: hidden;
+}
+
+#header-line {
+    width: 100%;
+    margin-left: 107px;
+    margin-top: -52px;
+    border-top: 1px solid #fff;
+    float: left;
+    text-align: right;
+}
+
+#header .add {
+    width: 20px;
+    cursor: pointer;
+    float: right;
+    margin-top: -43px;
+}
+
+a #logo, a:hover #logo {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover #logo {
+    opacity: 0.75;
+}
+
+#logo {
+    padding-left: 107px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url(../images/shloonktapooxis.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    float: left;
+    cursor: pointer;
+}
+
+    #logo .title {
+        font-size: 64px;
+        letter-spacing: -3px;
+        display: block;
+    }
+
+    #logo .title-meaning {
+        font-size: 13.69px;
+        font-weight: 200;
+        font-style: oblique;
+        letter-spacing: 1px;
+    }
+
+#entries-container {
+    width: 50%;
+    margin: 25px 25%;
+}
+
+    #entries-container .entry {
+        width: 100%;
+        padding: 15px 15px;
+        font-size: 25px;
+        border-bottom: 1px solid #779470;
+        position: relative;
+    }
+
+        #entries-container .entry:hover {
+            background: rgba(0, 0, 0, 0.25);
+        }
+
+        #entries-container .entry .title {
+            font-weight: 500;
+            margin-right: 25px;
+        }
+
+        #entries-container .entry .location {
+            color: #84b8c4;
+            font-weight: 200;
+            font-style: oblique;
+        }
+
+        #entries-container .entry .arrow {
+            width: 40px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-image: url(../images/arrow.svg);
+            background-size: 20px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+#footer {
+    border-top: 1px solid #84b8c4;
+    font-size: 12px;
+    color: #84b8c4;
+    text-align: center;
+    width: 90%;
+    margin: 50px 5%;
+    padding-top: 15px;
+}
+
+/* Place */
+
+#place-container {
+    width: 50%;
+    margin: 25px 25%;
+}
+
+    #place-container .place-title {
+        font-weight: 500;
+        margin-right: 25px;
+        font-size: 25px;
+        float: left;
+    }
+
+    #place-container .place-location {
+        color: #84b8c4;
+        font-size: 25px;
+        font-weight: 200;
+        float: right;
+    }
+
+    #place-container .place-p {
+        clear: both;
+        padding: 15px 0;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #place-container .place-link,
+    #place-container .place-link-edit {
+        color: #f5eb76;
+        text-decoration: none;
+    }
+
+    #place-container .place-link-edit {
+        float: right;
+    }
+
+        #place-container .place-link-edit:hover {
+            color: #fff;
+            background: #c94747;
+        }
+
+
+/* Edit */
+
+.place-container-input, form select, form textarea {
+    width: 90%;
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid #f5eb76;
+    font-size: 25px;
+    padding: 2%;
+    color: #fff;
+    font-weight: 200;
+    border-radius: 25px;
+}
+
+form textarea {
+    font-size: 15px;
+    min-height: 200px;
+}
+
+form button {
+    background: #f5eb76;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    cursor: pointer;
 }
