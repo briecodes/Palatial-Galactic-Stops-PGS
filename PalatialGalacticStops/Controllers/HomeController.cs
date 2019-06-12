@@ -28,5 +28,14 @@ namespace PalatialGalacticStops.Controllers
 
       return View(homeViewModel);
     }
+
+    public IActionResult Details(int id)
+    {
+      var place = _placeRepository.GetPlaceById(id);
+
+      if (place == null) return NotFound();
+
+      return View(place);
+    }
   }
 }
