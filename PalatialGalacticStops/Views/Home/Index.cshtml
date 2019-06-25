@@ -1,7 +1,7 @@
 ﻿@foreach (var place in Model.Places)
 {
     <div class="entry">
-        <span class="title">@place.Name</span> <span class="location">@place.Location</span> <a asp-controller="Home" asp-action="Details" asp-route-id="@place.Id">Hi</a>
+        <span class="title">@place.Name</span> <span class="location">@place.Location</span>
         <a asp-controller="Home" asp-action="Details" asp-route-id="@place.Id">
             <div class="arrow"></div>
         </a>
